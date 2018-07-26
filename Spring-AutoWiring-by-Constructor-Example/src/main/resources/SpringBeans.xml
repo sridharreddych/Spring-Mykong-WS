@@ -1,0 +1,26 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+	<bean id="developer" class="com.mkyong.common.Developer" autowire="constructor" />
+		
+	<bean id="language" class="com.mkyong.common.Language" >
+		<property name="name" value="Java" />
+	</bean>
+
+</beans>
+
+<!-- 
+Normally, you wire the bean via constructor like this :
+
+<bean id="developer" class="com.mkyong.common.Developer">
+	<constructor-arg>
+		<ref bean="language" />
+	</constructor-arg>
+</bean>
+
+<bean id="language" class="com.mkyong.common.Language" >
+	<property name="name" value="Java" />
+</bean>
+ -->

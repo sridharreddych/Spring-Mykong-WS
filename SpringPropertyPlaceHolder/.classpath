@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Jars Latest/jar copied on 31st may 2017/cglib-nodep-2.1_3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Jars Latest/jar copied on 31st may 2017/commons-logging-1.1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Jars Latest/jar copied on 31st may 2017/junit-4.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Jars Latest/jar copied on 31st may 2017/org.springframework.asm-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Jars Latest/jar copied on 31st may 2017/org.springframework.beans-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Jars Latest/jar copied on 31st may 2017/org.springframework.context-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Jars Latest/jar copied on 31st may 2017/org.springframework.core-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Jars Latest/jar copied on 31st may 2017/org.springframework.expression-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Jars Latest/jar copied on 31st may 2017/org.springframework.web.servlet-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Jars Latest/jar copied on 31st may 2017/org.springframework.web-3.0.1.RELEASE-A.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Jars Latest/jar copied on 31st may 2017/spring-jdbc-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/activation.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/ant.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/ant-junit.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/ant-launcher.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/antlr-2.7.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/ant-trax.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/aopalliance.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/asm-2.2.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/asm-commons-2.2.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/asm-util-2.2.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/aspectjrt.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/aspectjweaver.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/axis.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/backport-util-concurrent.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/bnd.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/bsh-2.0b4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/c3p0-0.9.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/catalina.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/cglib-nodep-2.1_3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/common-annotations.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/commonj-twm.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/commons-attributes-api.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/commons-attributes-compiler.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/commons-beanutils.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/commons-codec.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/commons-collections.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/commons-dbcp.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/commons-digester.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/commons-discovery.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/commons-fileupload.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/commons-httpclient.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/commons-io.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/commons-lang.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/commons-logging.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/commons-pool.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/commons-validator.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/connector.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/easymock.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/easymockclassextension.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/eclipselink.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/ehcache-1.4.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/ejb-api.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/el-api.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/freemarker.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/glassfish-clapi.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/groovy-1.5.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/hessian-3.1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/hibernate3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/hibernate-annotations.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/hibernate-commons-annotations.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/hibernate-entitymanager.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/hsqldb.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/ibatis-2.3.2.715.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/iText-2.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/jamon-2.7.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/jarjar.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/jasperreports-2.0.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/jaxb-api.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/jaxen-1.1-beta-7.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/jaxrpc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/jaxws-api.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/jdo2-api.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/jms.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/jmxremote.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/jmxremote_optional.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/jmxri.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/jotm.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/jruby.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/jsf-api.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/jsp-api.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/jstl.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/jta.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/junit-4.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/jws-api.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/jxl.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/log4j-1.2.15.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/mail.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/maven-ant-tasks.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/naming-resources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/oc4j-clapi.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/ojdbc14.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/openjpa-1.0.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/persistence.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/poi-3.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/portlet-api.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/qdox-1.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/quartz-all-1.6.1-RC1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/rowset.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/saaj-api.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/serp-1.13.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/servlet-api.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/slf4j-api-1.5.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/slf4j-log4j12-1.5.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/spring.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/spring-agent.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/spring-agent-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/spring-aop.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/spring-aop-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/spring-aspects.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/spring-aspects-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/spring-beans.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/spring-beans-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/spring-context.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/spring-context-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/spring-context-support.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/spring-context-support-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/spring-core.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/spring-core-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/spring-dao-2.0.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/spring-jdbc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/spring-jdbc-3.2.1.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/spring-jdbc-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/spring-jms.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/spring-jms-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/spring-orm.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/spring-orm-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/spring-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/spring-test.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/spring-test-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/spring-tomcat-weaver.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/spring-tomcat-weaver-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/spring-tx.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/spring-tx-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/spring-web.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/spring-webmvc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/spring-webmvc-portlet.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/spring-webmvc-portlet-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/spring-webmvc-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/spring-webmvc-struts.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/spring-webmvc-struts-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/spring-web-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/standard.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/struts.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/testng-5.5-jdk15.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/tiles-api-2.0.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/tiles-core-2.0.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/tiles-jsp-2.0.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/tomcat-dbcp-7.0.30.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/toplink-api.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/toplink-essentials.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/velocity-1.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/velocity-tools-view-1.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/websphere_uow_api.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/wsdl4j.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Sridhar reddy/Downloads/jars/Spring 2.5.5 all jars copied/xapool.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

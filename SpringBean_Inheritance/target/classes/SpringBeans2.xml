@@ -1,0 +1,23 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+	<bean id="BaseCustomerMalaysia" class="com.mkyong.common.Customer" abstract="true">
+		<property name="country" value="Malaysia" />
+	</bean>
+
+	<bean id="CustomerBean" parent="BaseCustomerMalaysia">
+		<property name="action" value="buy" />
+		<property name="type" value="1" />
+	</bean>
+
+</beans>
+
+<!-- Now, the ‘BaseCustomerMalaysia’ bean is a pure template, for bean to inherit it only, if you try to instantiate it, you will encounter the following error message.
+
+Customer cust = (Customer)context.getBean("BaseCustomerMalaysia");
+
+org.springframework.beans.factory.BeanIsAbstractException:
+	Error creating bean with name 'BaseCustomerMalaysia':
+	Bean definition is abstract -->

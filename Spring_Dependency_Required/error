@@ -1,0 +1,31 @@
+Jun 07, 2017 11:51:19 AM org.springframework.context.support.ClassPathXmlApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2ea0eb2a: display name [org.springframework.context.support.ClassPathXmlApplicationContext@2ea0eb2a]; startup date [Wed Jun 07 11:51:19 IST 2017]; root of context hierarchy
+Jun 07, 2017 11:51:19 AM org.springframework.beans.factory.xml.XmlBeanDefinitionReader loadBeanDefinitions
+INFO: Loading XML bean definitions from class path resource [SpringBeans.xml]
+Jun 07, 2017 11:51:19 AM org.springframework.context.support.ClassPathXmlApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@2ea0eb2a]: org.springframework.beans.factory.support.DefaultListableBeanFactory@59b3beac
+Jun 07, 2017 11:51:20 AM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@59b3beac: defining beans [org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,CustomerBean,PersonBean]; root of factory hierarchy
+Jun 07, 2017 11:51:20 AM org.springframework.beans.factory.support.DefaultListableBeanFactory destroySingletons
+INFO: Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@59b3beac: defining beans [org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,CustomerBean,PersonBean]; root of factory hierarchy
+Exception in thread "main" org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'CustomerBean' defined in class path resource [SpringBeans.xml]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanInitializationException: Property 'person' is required for bean 'CustomerBean'
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:480)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory$1.run(AbstractAutowireCapableBeanFactory.java:409)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:380)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:264)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:221)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:261)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:185)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:164)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:429)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:729)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:381)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:83)
+	at com.mkyong.common.App.main(App.java:8)
+Caused by: org.springframework.beans.factory.BeanInitializationException: Property 'person' is required for bean 'CustomerBean'
+	at org.springframework.beans.factory.annotation.RequiredAnnotationBeanPostProcessor.postProcessPropertyValues(RequiredAnnotationBeanPostProcessor.java:121)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:998)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:472)
+	... 14 more

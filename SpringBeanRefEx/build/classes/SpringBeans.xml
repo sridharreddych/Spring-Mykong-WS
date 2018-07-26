@@ -1,0 +1,16 @@
+<!-- Configure bean in Spring configuration file, and reference the bean “CsvOutputGenerator” into “OutputHelper”, via property tag, ref attribute.
+
+In this case, Spring will DI the bean “CsvOutputGenerator” into “OutputHelper” class, via setter method “setOutputGenerator(IOutputGenerator outputGenerator)”. -->
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+	<bean id="OutputHelper" class="com.mkyong.output.OutputHelper">
+		<property name="outputGenerator" ref="CsvOutputGenerator" />
+	</bean>
+
+	<bean id="CsvOutputGenerator" class="com.mkyong.output.impl.CsvOutputGenerator" />
+
+</beans>

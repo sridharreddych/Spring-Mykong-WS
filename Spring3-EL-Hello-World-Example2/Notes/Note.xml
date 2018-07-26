@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 
+
+
+The Spring EL is similar with OGNL and JSF EL, and evaluated or executed during the bean creation time. In addition, all Spring expressions are available via XML or annotation.
+
+In this tutorial, we show you how to use Spring Expression Language(SpEL), to inject String, integer and bean into property, both in XML and annotation.
+1. Spring EL Dependency
+
+Declares the core Spring jars in Maven pom.xml file, it will download the Spring EL dependencies automatically.
+
+File : pom.xml
+
+
+2. Spring Beans
+
+Two simple beans, later use SpEL to inject values into property, in XML and annotation.
+
+
+3. Spring EL in XML
+
+The SpEL are enclosed with #{ SpEL expression }, see following example in XML bean definition file
+
+
+    #{itemBean} – inject “itemBean” into “customerBean” bean’s “item” property.
+    #{itemBean.name} – inject “itemBean”‘s “name” property into “customerBean” bean’s “itemName” property.
+
+4. Spring EL in Annotation
+
+See equivalent version in annotation mode.
+Note
+To use SpEL in annotation, you must register your component via annotation. If you register your bean in XML and define @Value in Java class, the @Value will failed to execute. 
+
+Enable auto component scanning.
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+	http://www.springframework.org/schema/context
+	http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+
+	<context:component-scan base-package="com.mkyong.core" />
+
+</beans>
+
+In annotation mode, you use @Value to define Spring EL. In this case, you inject a String and Integer value directly into the “itemBean“, and later inject the “itemBean” into “customerBean” property.
+
+5. Output
+
+Run it, both SpEL in XML and annotation are display the same result :
+
+Output
+
+Customer [item=Item [name=itemA, qty=10], itemName=itemA]
+
+
+
+ -->

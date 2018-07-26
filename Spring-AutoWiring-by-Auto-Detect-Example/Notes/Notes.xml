@@ -1,0 +1,74 @@
+<!-- 
+
+Spring Autowiring by AutoDetect
+
+By mkyong | June 10, 2011 | Updated : August 29, 2012 | Viewed : 32,709 times +100 pv/w
+
+In Spring, “Autowiring by AutoDetect“, means chooses “autowire by constructor” if default constructor (argument with any data type), otherwise uses “autowire by type“.
+
+See an example of Spring “auto wiring by autodetect”. Auto wiring the “kungfu” bean into “panda”, via constructor or type (base on the implementation of panda bean).
+
+<bean id="panda" class="com.mkyong.common.Panda" autowire="autodetect" />
+
+<bean id="kungfu" class="com.mkyong.common.KungFu" >
+	<property name="name" value="Shao lin" />
+</bean>
+
+1. AutoDetect – by Constructor
+
+If a default constructor is supplied, auto detect will chooses wire by constructor.
+
+package com.mkyong.common;
+
+public class Panda {
+	private KungFu kungfu;
+
+	public Panda(KungFu kungfu) {
+		System.out.println("autowiring by constructor");
+		this.kungfu = kungfu;
+	}
+
+	public KungFu getKungfu() {
+		return kungfu;
+	}
+
+	public void setKungfu(KungFu kungfu) {
+		System.out.println("autowiring by type");
+		this.kungfu = kungfu;
+	}
+
+	//...
+}
+
+Output
+
+autowiring by constructor
+Person [kungfu=Language [name=Shao lin]]
+
+2. AutoDetect – by Type
+
+If a default constructor is not found, auto detect will chooses wire by type.
+
+package com.mkyong.common;
+
+public class Panda {
+	private KungFu kungfu;
+
+	public KungFu getKungfu() {
+		return kungfu;
+	}
+
+	public void setKungfu(KungFu kungfu) {
+		System.out.println("autowiring by type");
+		this.kungfu = kungfu;
+	}
+
+	//...
+}
+
+Output
+
+autowiring by type
+Person [kungfu=Language [name=Shao lin]]
+
+ -->

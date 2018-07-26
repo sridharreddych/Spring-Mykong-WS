@@ -1,0 +1,24 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+	<bean id="CustomerBean" class="com.mkyong.common.Customer" >
+		<property name="action" value="buy" />
+	</bean>
+
+	<bean id="PersonBean" class="com.mkyong.common.Person">
+		<property name="name" value="mkyong" />
+		<property name="address" value="address ABC" />
+		<property name="age" value="29" />
+	</bean>
+
+</beans>
+
+<!-- 1. none dependency checking
+
+Spring bean configuration file with ‘none’ dependency checking mode.
+
+
+
+If you did not explicitly define the dependency checking mode, it’s default to ‘none’. No dependency checking will perform. -->

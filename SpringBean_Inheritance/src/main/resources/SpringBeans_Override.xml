@@ -1,0 +1,26 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+	<bean id="BaseCustomerMalaysia" class="com.mkyong.common.Customer" abstract="true">
+		<property name="country" value="Malaysia" />
+	</bean>
+
+	<bean id="CustomerBean" parent="BaseCustomerMalaysia">
+	    <property name="country" value="Japan" />
+		<property name="action" value="buy" />
+		<property name="type" value="1" />
+	</bean>
+
+</beans>
+
+<!-- However, you are still allow to override the inherited value by specify the new value in the child bean. Let’s see this example
+
+The ‘CustomerBean’ bean is just override the parent (‘BaseCustomerMalaysia’) country property, from ‘Malaysia’ to ‘Japan’.
+
+Customer [Country=Japan, action=buy, type=1]
+
+Conclusion
+
+The Spring bean configuration inheritance is very useful to avoid the repeated common value or configurations for multiple beans. -->

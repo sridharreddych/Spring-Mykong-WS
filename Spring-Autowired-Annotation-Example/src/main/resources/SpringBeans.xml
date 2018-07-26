@@ -1,0 +1,153 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+	<bean class="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor"/>
+	
+	<bean id="customer" class="com.mkyong.common.Customer" >
+		<property name="action" value="buy" />
+		<property name="type" value="1" />
+	</bean>
+		
+	<bean id="personA" class="com.mkyong.common.Person" >
+		<property name="name" value="mkyongA" />
+	</bean>
+	
+</beans>
+
+<!-- 
+3. @Autowired Examples
+
+Now, you can autowired bean via @Autowired, and it can be applied on setter method, constructor or a field.
+1. @Autowired setter method
+
+package com.mkyong.common;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+public class Customer
+{
+	private Person person;
+	private int type;
+	private String action;
+	//getter and setter methods
+
+	@Autowired
+	public void setPerson(Person person) {
+		this.person = person;
+	}
+}
+
+2. @Autowired construtor
+
+package com.mkyong.common;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+public class Customer
+{
+	private Person person;
+	private int type;
+	private String action;
+	//getter and setter methods
+
+	@Autowired
+	public Customer(Person person) {
+		this.person = person;
+	}
+}
+
+3. @Autowired field
+
+package com.mkyong.common;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+public class Customer
+{
+	@Autowired
+	private Person person;
+	private int type;
+	private String action;
+	//getter and setter methods
+}
+
+The above example will autowired ‘PersonBean’ into Customer’s person property.
+
+Dependency checking
+
+By default, the @Autowired will perform the dependency checking to make sure the property has been wired properly. When Spring can’t find a matching bean to wire, it will throw an exception. To fix it, you can disable this checking feature by setting the “required” attribute of @Autowired to false.
+
+package com.mkyong.common;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+public class Customer
+{
+	@Autowired(required=false)
+	private Person person;
+	private int type;
+	private String action;
+	//getter and setter methods
+}
+
+In the above example, if the Spring can’t find a matching bean, it will leave the person property unset.
+@Qualifier
+
+The @Qualifier annotation us used to control which bean should be autowire on a field. For example, bean configuration file with two similar person beans.
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+	http://www.springframework.org/schema/context
+	http://www.springframework.org/schema/context/spring-context-2.5.xsd">
+
+	<context:annotation-config />
+
+	<bean id="CustomerBean" class="com.mkyong.common.Customer">
+		<property name="action" value="buy" />
+		<property name="type" value="1" />
+	</bean>
+
+	<bean id="PersonBean1" class="com.mkyong.common.Person">
+		<property name="name" value="mkyong1" />
+		<property name="address" value="address 1" />
+		<property name="age" value="28" />
+	</bean>
+
+	<bean id="PersonBean2" class="com.mkyong.common.Person">
+		<property name="name" value="mkyong2" />
+		<property name="address" value="address 2" />
+		<property name="age" value="28" />
+	</bean>
+
+</beans>
+
+Will Spring know which bean should wire?
+
+To fix it, you can use @Qualifier to auto wire a particular bean, for example,
+
+package com.mkyong.common;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+
+public class Customer
+{
+	@Autowired
+	@Qualifier("PersonBean1")
+	private Person person;
+	private int type;
+	private String action;
+	//getter and setter methods
+}
+
+It means, bean “PersonBean1” is autowired into the Customer’s person property. Read this full example – Spring Autowiring @Qualifier example
+Conclusion
+
+This @Autowired annotation is highly flexible and powerful, and definitely better than “autowire” attribute in bean configuration file.
+
+ -->

@@ -1,0 +1,21 @@
+In Spring, you can use init-method and destroy-method as attribute in bean configuration file for bean to perform certain actions upon initialization and destruction. Alternative to InitializingBean and DisposableBean interface.
+
+The ConfigurableApplicationContext.close will close the application context, releasing all resources and destroying all cached singleton beans.
+
+Output
+
+Init method after properties are set : i'm property message
+com.mkyong.customer.services.CustomerService@47393f
+...
+INFO: Destroying singletons in org.springframework.beans.factory.
+support.DefaultListableBeanFactory@77158a:
+defining beans [customerService]; root of factory hierarchy
+Spring Container is destroy! Customer clean up
+
+The initIt() method is called, after the message property is set, and the cleanUp() method is called after the context.close();
+Thoughts…
+It’s always recommended to use init-method and destroy-method in bean configuration file, instead of implement the InitializingBean and DisposableBean interface to cause unnecessarily coupled your code to Spring. 
+
+
+
+
